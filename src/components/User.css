@@ -1,0 +1,54 @@
+/* User.css */
+
+.user-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fdfdfd;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.user-container label {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.user-container input[type="text"] {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.user-container button[type="submit"] {
+  padding: 0.6rem 1.2rem;
+  width: 80px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+
+.logout-button{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logout-button button{
+    text-align: center;
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+}
