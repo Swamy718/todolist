@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,Link } from 'react-router-dom';
+
+
 import './Signup.css';
 function SignUp() {
     const[username,setUsername]=useState("")
@@ -73,7 +75,7 @@ function SignUp() {
        
       </form>
       <div className="tologin">
-         <p>Already have an account? <a href="/">Login</a></p>
+         <p>Already have an account? <Link to="/">Login</Link></p>
       </div>
      
     </div>
